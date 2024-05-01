@@ -1,0 +1,46 @@
+.App {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.FacebookPost {
+  background-color: #ffffff;
+  width: 600px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.FacebookPost-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.FacebookPost-date {
+  font-size: 0.875rem;
+  color: #808080;
+}
+
+.FacebookPost-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.FacebookPost-image {
+  flex: 1;
+  max-width: 48%;
+  margin-right: 1%;
+}
+
+.FacebookPost-image-caption {
+  font-size: 0.875rem;
+  color: #333;
+  margin-top: 5px;
+}
